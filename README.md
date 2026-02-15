@@ -1,6 +1,6 @@
 # NASCAR Friends League (2026)
 
-Public link for viewing standings + results.
+Public link for viewing standings + results. 
 Picks submission requires a single group passcode.
 
 ## 1) Create Supabase project
