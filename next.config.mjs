@@ -1,3 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { experimental: { serverActions: { allowedOrigins: [] } } };
-export default nextConfig;
+const nextConfig = {
+  webpack: (config) => {
+    config.resolve.alias['@'] = process.cwd()
+    return config
+  }
+}
+
+export default nextConfig
