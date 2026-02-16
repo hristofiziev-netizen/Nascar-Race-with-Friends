@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import ... from "@/lib/supabase";
-import ... from "@/lib/rules";
+import { canPickDriverForPlayer } from "@/lib/rules";
 
 
 function unauthorized() {
