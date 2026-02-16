@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import ... from "../../../../lib/supabase";
+import { supabase } from "@/lib/supabase";
 import bcrypt from "bcryptjs";
 
 function bad(msg: string, status = 400) {
