@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
-import { supabaseAdmin } from "@/lib/supabase";
-import { bracketFromQualPos } from "@/lib/rules";
+import ... from "@/lib/supabase";
+import ... from "@/lib/rules";
+
 
 function unauthorized() {
   return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
