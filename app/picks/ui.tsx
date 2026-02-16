@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { canPickDriverForPlayer } from "@/lib/rules"
+import { canPickDriverForPlayer } from "../../lib/rules";
+
 
 type DriverRow = {
   driver_name: string;
