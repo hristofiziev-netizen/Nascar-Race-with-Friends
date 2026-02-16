@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { supabaseAdmin } from "@/lib/supabase";
+import { supabase } from "@/lib/supabase";
+import { canPickDriverForPlayer } from "@/lib/rules";
 
 export async function GET() {
   const sb = supabaseAdmin();
