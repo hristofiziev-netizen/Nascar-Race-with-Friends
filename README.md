@@ -1,5 +1,6 @@
 # Nascar Race with Friends
 
+
 This is a clean, deployable Next.js 14 App Router project that avoids the ESM/CommonJS config issues.
 
 ## Important notes (Vercel)
