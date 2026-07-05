@@ -17,3 +17,4 @@ This is a clean, deployable Next.js 14 App Router project that avoids the ESM/Co
 - drivers (driver_name text, qual_pos int, running_pos int, finish_pos int)
 - current_state (id int=1, race_name text, picks_lock_utc text, locked bool)
 - sync_log (ran_at timestamptz/text) optional
+
